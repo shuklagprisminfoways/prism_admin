@@ -1,0 +1,308 @@
+@media screen and (max-width: 1199.98px) {
+    h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    h3 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .section-spacing {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .testimonial-section .testimonial .testimonial-slider{
+        padding: 80px 80px;
+    }
+    .new_banner .podcast .podcast_img img{
+        height: 100%;
+    }
+    .new_banner .webinar .webs .webinar_img img{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    p,
+    ul,
+    ol {
+        font-size: var(--fs-16);
+        line-height: 26px;
+    }
+
+    .section-spacing {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-heading .title {
+        margin-bottom: 10px;
+    }
+
+    .header .top-header .social li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header .top-header .social li a img {
+        max-width: 16px;
+        max-height: 16px;
+    }
+
+    .header .contact,
+    .header .social,
+    .header .navbar-toggler,
+    .header .navbar-brand {
+        position: relative;
+        z-index: 1046;
+    }
+
+    .header .navbar {
+        padding: 10px 0px;
+    }
+
+    .header .navbar .navbar-brand {
+        height: 30px;
+        padding: 0px;
+    }
+
+    .header .navbar .navbar-nav {
+        gap: 0px;
+        margin-bottom: 15px;
+    }
+
+    .header .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px 0px;
+    }
+
+    .header .offcanvas {
+        background-color: rgba(0, 0, 0, .8);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        width: 100vw;
+        height: 100vh;
+        border: none;
+    }
+
+    .header .offcanvas .offcanvas-header {
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+
+    .header .offcanvas .offcanvas-body {
+        padding-top: 50px;
+        overflow: hidden;
+    }
+    .header .offcanvas .offcanvas-body .innerlinks {
+        overflow: hidden auto;
+        height: 100%;
+    }
+
+    .header .offcanvas-backdrop {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .service-section .service_card .card .card-body .card_content{
+        font-size: var(--fs-14);
+    } 
+    .testimonial-section .testimonial .owl-carousel .owl-nav{
+        display: none;
+    }
+    .testimonial-section .testimonial .testimonial-slider{
+        padding: 50px 50px;
+    }
+    .footer-section .whole-footer .services ul li {
+        display: flex;
+        align-items: center;
+    }
+    .mission-section .mission .mission-content .contnt .cotnt{
+        font-size: var(--fs-18);
+    }
+    .new_banner .podcast .podcast_img img{
+        height: 100%;
+    }
+    .new_banner{
+        height: 500px;
+    }
+    .podcast-section .podcast-form .contact-card{
+        margin-left: 0px;
+    }
+
+   
+    .new_banner .webinar .webs{
+        margin-top: 70px;
+    }
+    .article-section .article-page .blog_card:last-child{
+        margin-bottom: 0px !important;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .hero-section {
+        min-height: 600px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+    .section-spacing {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .service-section .service_card .item .card .card-body{
+        padding: 15px;
+    }
+    .header .navbar .navbar-nav .nav-item .sub-menu{
+        min-width: 200px !important;
+    }
+    .mission-section .mission .mission-content .contnt .cotnt{
+        font-size: var(--fs-16);
+    }
+    
+    .privacy-policy-section .circles{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .service-section .owl-carousel .owl-dots{
+        margin-top: 20px;
+    }
+    .earning-section::before{
+        display: none;
+    }
+    .service-section .service_card .right-circle{
+        display: none;
+    }
+    .why-choose-section .why_prism .growth{ 
+        margin-bottom: 20px;
+    }
+    .why-choose-section .why_prism .growth .content{ 
+        font-size: var(--fs-15);
+    }
+    .testimonial-section .testimonial .testimonial-slider{
+        padding: 20px;
+    } 
+    .testimonial-section .testimonial .testimonial-slider .testimonial_card .testi_content{
+        font-size: var(--fs-18);
+        margin-bottom: 20px;
+    }
+    .our-workflow-section .workflow .benefit-cards .card{
+        margin-bottom: 30px;
+    }
+    .workshop-section .workshop .circle{
+        display: none;
+    }
+    .workshop-section .workshop .webinar .workshop_heading{
+        font-size: var(--fs-26);
+    }
+    .frequently-section .ask_question .accordion .accordion-item .accordion-header .accordion-button{
+        font-size: var(--fs-16);
+    }
+    .portfolio-section .portfolio .portfolio-content .portfolio_card .contnt .portfolio-title{
+        font-size: var(--fs-18);
+    }
+    .banner-section .breadcrumb-sec .breadcrumb{
+        padding: 5px;
+        gap: 0px;
+    }
+    .banner-section .breadcrumb-sec .breadcrumb .breadcrumb-item{
+        padding: 10px 20px;
+    }
+    .new_banner{
+        height: 550px;
+    }
+    .podcast-section .podcast-form .content{
+        font-size: var(--fs-16);
+    }
+    .podcast-section .podcast-form .contact-card{
+        padding: 10px;
+    }
+    .contactus-section .contnt .contact-group .contact-item .icon{
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+    }
+    .contactus-section .contnt .contact-group .contact-item .icon svg{
+        height: 20px;
+        width: 20px;
+    }
+    .contactus-section .contnt .contact-group .contact-item .info .contact{
+        font-size: var(--fs-14);
+        word-break: normal;
+    }
+    .contactus-section .contact-card{
+        margin-left: 0px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .career-section .career .career-content .contnt .career-title{
+        font-size: var(--fs-24);
+    }
+    .webinar-section .webnr .webinar_card .webinar_img{
+        left: 0;
+        top: 20px;
+    }
+    .webinar-section .webnr .webinar_card{
+        margin-left: 0px;
+    }
+    .webinar-section .webnr .webinar_card .online_earning_content{
+        padding-right: 0px;
+    }
+    .ban_1{
+        height: 100%;
+    }
+}
