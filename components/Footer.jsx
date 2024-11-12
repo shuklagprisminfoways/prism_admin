@@ -301,7 +301,7 @@ const Footer = () => {
               <div className="col-12">
                 <div className="footerbottom pt-5 text-center">
                   Full Copyright &amp; Design By
-                  <Link href="/">Prism Infoways Pvt Ltd</Link>- 2024
+                  <Link href="/"> Prism Infoways Pvt Ltd</Link>- 2024
                 </div>
               </div>
             </div>

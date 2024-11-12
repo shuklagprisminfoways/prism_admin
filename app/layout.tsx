@@ -9,6 +9,7 @@ import "../public/css/style.css";
 import "../public/css/responsive.css";
 import "../public/css/owl.carousel.min.css";
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -24,14 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
-      <Script src="/js/jquery-3.3.1.min.js"></Script>
-        <Script src="/js/bootstrap.bundle.min.js"></Script>
-        <Script src="/js/Main.js"></Script>
-        <Script src="/js/owl.carousel.min.js"></Script>
+      <Script src="../public/js/jquery-3.3.1.min.js"></Script>
+      <Script src="../public/js/bootstrap.bundle.min.js"></Script>
+      <Script src="../public/js/Main.js"></Script>
+      <Script src="../public/js/owl.carousel.min.js"></Script>
     </html>
   )
 }

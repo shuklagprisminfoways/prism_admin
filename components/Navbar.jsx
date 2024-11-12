@@ -58,8 +58,8 @@ export default function Navbar() {
               <div className="offcanvas-body align-items-center">
                 <div className="d-lg-flex innerlinks align-items-center justify-content-between w-100">
                   <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
-                    <li className="nav-item">
-                      <Link className="nav-link active" href="/services">
+                    <li className="nav-item" >
+                      <Link className="nav-link active" href="" >
                         Services
                       </Link>
                       <ul className="sub-menu" style={{ minWidth: "400px" }}>
@@ -106,7 +106,7 @@ export default function Navbar() {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/company">
+                      <Link className="nav-link" href="">
                         Company
                       </Link>
                       <ul className="sub-menu">
@@ -123,7 +123,7 @@ export default function Navbar() {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/community">
+                      <Link className="nav-link" href="">
                         Community
                       </Link>
                       <ul className="sub-menu">
@@ -135,12 +135,12 @@ export default function Navbar() {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/portfolio">
+                      <Link className="nav-link" href="">
                         Portfolio
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/blog">
+                      <Link className="nav-link" href="">
                         Blog
                       </Link>
                     </li>
